@@ -1,0 +1,61 @@
+# Personal Productivity System (CLI)
+
+A simple command-line productivity tracking system built with **Python** and **SQLite**.
+Designed to practice **backend fundamentals**: data validation, persistence, aggregation, and clean program structure.
+
+## Features
+
+* Add daily activities via CLI
+* Persistent storage using SQLite
+* Input validation (date & duration)
+* Daily, weekly, and monthly summaries
+* Sorted and limited output for readability
+* Modular structure (`main.py` & `db.py`)
+
+## Tech Stack
+
+* Python 3
+* SQLite
+* Standard Library (`datetime`, `sqlite3`)
+
+## Project Structure
+
+```
+.
+├── main.py      # CLI logic, validation, summaries
+├── db.py        # Database operations (CRUD)
+├── productivity.db
+└── README.md
+```
+
+## How to Run
+
+1. Make sure Python 3 is installed
+2. Run the program:
+
+```bash
+python main.py
+```
+
+3. Use the menu to:
+
+* Add activities
+* View summaries
+* Exit program
+
+## Why This Project
+
+This project focuses on **system thinking**, not just scripting:
+
+* Clean separation of concerns
+* Defensive programming against bad input
+* Data aggregation logic commonly used in backend systems
+
+## Future Improvements
+
+* Export reports (CSV)
+* Date range filtering
+* Basic analytics & insights
+
+---
+
